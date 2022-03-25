@@ -42,7 +42,7 @@ rule C_EXECUTABLE_LINKER__untitled_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "D:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\ismae\CLionProjects\untitled -BC:\Users\ismae\CLionProjects\untitled\cmake-build-debug
+  command = "D:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Users\ismae\CLionProjects\BinaryTree -BD:\Users\ismae\CLionProjects\BinaryTree\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

@@ -3,10 +3,10 @@
 
 typedef int Elem;
 
-void PrintElem(Elem e){printf("%r, ", e);}
+void PrintElem(Elem e){printf("%d, ", e);}
 Elem ReadElem(){
     Elem e;
-    scanf("%r",&e);
+    scanf("%d",&e);
     return e;
 }
 
